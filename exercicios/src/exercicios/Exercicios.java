@@ -4,17 +4,26 @@
  */
 package exercicios;
 
+import java.awt.BorderLayout;
+import static java.time.Clock.system;
+import java.util.Scanner;
+
 /**
  *
  * @author rosane_maia
  */
 public class Exercicios {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner leia = new Scanner (System.in);
+                
+                int numero = leia.nextInt();
+                
+              
+                numero --;       
+                System.out.println ("valor:" + numero);
+  
     }
     
 }
