@@ -20,9 +20,9 @@ public class Exercicios {
                 
                 int numero = leia.nextInt();
                 
-              
-                numero --;       
-                System.out.println ("valor:" + numero);
+                numero --;  
+                int antecessor = valor - 1 
+                System.out.println ("O ANTECESSOR É: " + antecessor);
   
     }
     

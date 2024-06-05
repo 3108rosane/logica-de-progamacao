@@ -6,25 +6,22 @@ package exercicios;
 
 import java.util.Scanner;
 
-/**
- *
- * @author rosane_maia
- */
+
 public class exercicio02 {
      public static void main(String[] args) {
-    Scanner leia = new Scanner (System.in);
+    Scanner s = new Scanner (System.in);
     
     System.out.println("DIGITE A LARGURA");
     
-    double largura = leia.nextDouble();
+    double largura = s.nextDouble();
     
      System.out.println("DIGITE A ALTURA");
      
-     double altura = leia.nextDouble();
+     double altura = s.nextDouble();
      
-     double result = largura * altura;
+     double area = largura * altura;
      
-     System.out.println("AREA É IGUAL:" + result);
+     System.out.println("AREA É:" + area);
             
      }   
     
