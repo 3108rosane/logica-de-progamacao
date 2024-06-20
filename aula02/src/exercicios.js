@@ -58,7 +58,27 @@ var numero = leia.questionInt(" impar ou par ");
             console.log("custo total == quantidade * 0.30");
         }else("custo total == quantidade * 0.25")
 
+<<<<<<< Updated upstream
 
+=======
+<<<<<<< HEAD
+    // exerc10
+        import leia from "readline-sync"
+         
+        console.log("informe o valor da sua doação")
+        console.log("1 - R$10,00")
+        console.log("2 - R$25,00")
+        console.log("3 - R$50,00")
+        console.log("4 - outro valor")
+         var opção = leia.question("informe a opçaõ")
+          if(opçaõ === "1") {
+            console.log("vc doou R$ 10,00! obrigado")
+          }
+
+=======
+>>>>>>> e8732443b3d5f53242cddd307d88557b4056dc55
+
+>>>>>>> Stashed changes
     // execicios05
 
     import leia from "readline-sync"
