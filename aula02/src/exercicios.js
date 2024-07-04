@@ -39,13 +39,13 @@ var numero = leia.questionInt(" impar ou par ");
     var placa = leia.questionInt("digite ultimo numero da placa");
     if ("placa 0 === || placa 1" );{
     console.log ("segunda feira não pode rodar");
-    }elseif("placa final 2 ||  3");{
+    }else if("placa final 2 ||  3");{
         console.log("terça feira não pode rodar");
-    }elseif("placa final 4 || 5");{
+    }else if("placa final 4 || 5");{
         console.log("quarta feira não pode rodar");
-    }elseif("placa final 6 || 7");{
+    }else if("placa final 6 || 7");{
         console.log("quinta feira não pode rodar");
-    }elseif("placa final 8 || 9");{
+    }else if("placa final 8 || 9");{
         console.log("sexta feira não pode rodar");
     }
 
