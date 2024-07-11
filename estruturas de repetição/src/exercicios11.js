@@ -8,10 +8,11 @@ var somaAltTotal = 0.0
 var quantidadePessoas = 0
 var quantidadeHomens = 0
 
-for  in (10)
-    Altura = leia.questionFloat("Informe a altura da pessoa {i+1} (em metros): ")
-    genero = leia.questionInt("Informe o gênero da pessoa (0 = masculino, 1 = feminino): "){
-
+for(var i = 0; < 10; i++){
+var genero = leia.keyInSelect(["mascolino" , " feminino"]) +1
+var altura = leia.keyInSelect("informe sua altura: ");
+}
+    
     
     
     if Altura > maiorAltura
